@@ -1,0 +1,58 @@
+import java.util.Scanner;
+public class Voiture {
+	
+	 private String nom, marque, modele, couleur;
+	 private int vitesse;
+	 
+	 /*constructeur
+	 public Voiture (int v) {
+		 this.vitesse = v;*/
+		 
+		 
+		 
+	 }
+	 
+	 
+	 
+	 
+	 //methode
+	 
+	 public double tempsMIS/* fonction */(int vitesse, int distance){
+		
+		 double tempsMis/*variable*/ = distance / vitesse; 
+		 
+		 return tempsMis;
+	 
+	 }
+	
+	 //affichage
+	 
+	 public void afficher() {
+		 
+		 
+		
+		 Scanner sc = new Scanner(System.in);
+			
+			System.out.println("Entrée la vitesse de la voiture " );
+			double vitesse = sc.nextInt();
+			
+			System.out.println("Entrée la distance parcourue " );
+				int distance = sc.nextInt();
+			
+				double tempsMis = distance/vitesse; 
+			System.out.println("Le temps sur la distance donnée" +tempsMis);
+			
+			
+			
+		}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+Voiture v1 = new Voiture();
+
+v1.afficher();
+	}
+
+}

@@ -1,0 +1,41 @@
+import java.util.Scanner;
+public class Voiture {
+	
+	 private String nom, marque, couleur, modele;
+	 private int vitesse;
+	 
+	 
+	 
+	 
+	 //methode
+	 
+	 public int tempsMIS/* fonction */(int vitesse, int distance){
+	
+		 int tempsMis/*variable*/ = distance / vitesse; 
+		 
+		 return tempsMis;
+	 
+	 
+	 }
+	
+	 //affichage
+	 
+	 public void afficher() { // void satria tsy misy calcul eto fa juste manambara fotsiny hoe affichena
+		 
+		 
+			
+			
+			System.out.println("Entrée la vitesse de la voiture " + );
+		}
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

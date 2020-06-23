@@ -1,0 +1,18 @@
+
+public class Application1 {
+	
+	private String nom; //attribut nom
+	private float salaireBrut, salaireNet, retenues, taux; //nos attributs sont de même type float
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Hello world");
+		
+		System.out.println("--------Ecrivons maintenant notre algorithme en JAVA-------------");
+		
+		
+
+	}
+
+}

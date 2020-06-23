@@ -1,0 +1,40 @@
+import java.util.Scanner;
+public class Employe2 {
+	
+	
+	private String nom;
+	private double salaireBrut, salairenet, retenue, taux;
+	
+	public Employe2 (String n) {
+	}
+	
+	public static void main(String[]args)
+	{
+
+		int taux;
+Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Salaire Brut");
+		int salaireBrut = sc.nextInt();
+		
+		
+		
+		
+		System.out.println("Retenue");
+		 
+		int retenue = salaireBrut;
+		
+	
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+
+}
+}

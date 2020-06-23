@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class Addition {
+	
+	private String nom; //attribut nom
+	private float salaireNet; //nos attributs sont de même type float
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		
+		System.out.println("Ecrire la premiere nombre");
+		Scanner sc = new Scanner(System.in);
+		int nombre1 = sc.nextInt();
+		
+		
+		
+		System.out.println("Ecrire la deuxieme nombre");
+		int nombre2 = sc.nextInt();
+		
+		int resultat =  nombre1 + nombre2;
+		
+		System.out.println("La sommes des deux nombre =   " +  resultat);
+		
+		
+	
+		
+		
+		
+		
+	
+
+}
+	
+}
