@@ -5,7 +5,7 @@ public class Voiture {
 	 private String marque, modele, couleur;
 	 private int vitesse;
 	 
-	 /*constructeur*/
+	 /*debut constructeur*/
 	 
 	 public Voiture (int v, String marque, String modele, String couleur) {
 		 this.vitesse = v;
@@ -14,6 +14,7 @@ public class Voiture {
 		 this.couleur = couleur;
 	 }
 	  
+	 //fin constructeur
 	 
 	 //methode
 	 
@@ -24,8 +25,10 @@ public class Voiture {
 		 return tempsMis;
 	 
 	 }
+	 
+	 //fin methode
 	
-	 //affichage
+	 //debut affichage
 	 
 	 public void afficher() {
 		 
@@ -44,13 +47,16 @@ public class Voiture {
 			double vitesse = sc.nextInt();
 			
 			System.out.println("Entrée la distance parcourue " );
-				int distance = sc.nextInt();
+				int distance = sc.nextInt(); 
 			
 				double tempsMis = distance/vitesse; 
 			System.out.println("Le temps sur la distance donnée" +tempsMis+"h");
 						
 		}
-	
+	 
+	//fin affichage
+	 
+	 //debut main
 
 public static void main(String[] args) {
 	// TODO Auto-generated method stub

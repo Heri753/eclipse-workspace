@@ -1,0 +1,2 @@
+module speedConverter2 {
+}
